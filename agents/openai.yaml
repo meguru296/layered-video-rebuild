@@ -1,0 +1,4 @@
+interface:
+  display_name: "分层描改与视频重建"
+  short_description: "逐帧分析、画稿分层复用、文字与几何重建、连续性检查和工程交付"
+  default_prompt: "使用 $layered-video-rebuild 分析参考视频，在保留画风的前提下完成分层描改、动效重建、检查和工程交付。"
