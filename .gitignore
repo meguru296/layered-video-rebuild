@@ -8,7 +8,9 @@ venv/
 .DS_Store
 Thumbs.db
 release-assets/
-dist/
+dist/*
 build/
 *.zip
+!dist/layered-video-rebuild-v1.1.0.zip
+!dist/layered-video-rebuild-v1.1.0.zip.sha256
 *.log

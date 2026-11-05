@@ -15,7 +15,7 @@
 
 ## 安装与使用
 
-从 [Releases](https://github.com/meguru296/layered-video-rebuild/releases) 下载 `layered-video-rebuild-v1.1.0.zip`，解压得到 `layered-video-rebuild` 文件夹，放入自己的 Codex skills 目录：通常是 `~/.codex/skills/`；如设置了 `CODEX_HOME`，则使用其中的 `skills/`。已有同名版本时先保存所需改动，再替换。下一轮对话中即可使用。
+下载仓库内的 [v1.1.0 技能包](dist/layered-video-rebuild-v1.1.0.zip) 和 [SHA-256 校验文件](dist/layered-video-rebuild-v1.1.0.zip.sha256)，解压得到 `layered-video-rebuild` 文件夹，放入自己的 Codex skills 目录：通常是 `~/.codex/skills/`；如设置了 `CODEX_HOME`，则使用其中的 `skills/`。已有同名版本时先保存所需改动，再替换。下一轮对话中即可使用。历史发布见 [Releases](https://github.com/meguru296/layered-video-rebuild/releases)。
 
 调用示例：
 
