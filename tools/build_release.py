@@ -12,6 +12,8 @@ SKILL_FILES = (
     "agents/openai.yaml",
     "references/analysis-and-motion.md",
     "references/art-and-compositing.md",
+    "references/direction-and-routing.md",
+    "references/feedback-and-iteration.md",
     "references/records-and-audits.md",
     "references/render-and-qa.md",
     "references/troubleshooting-and-handoff.md",
@@ -23,7 +25,7 @@ SKILL_FILES = (
 def main():
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--version", default="v1.0.0")
+    parser.add_argument("--version", default="v1.1.0")
     parser.add_argument("--output", type=Path, default=root.parent / "release-assets")
     args = parser.parse_args()
     if not re.fullmatch(r"v[0-9]+\.[0-9]+\.[0-9]+(?:-[a-zA-Z0-9.-]+)?", args.version):
